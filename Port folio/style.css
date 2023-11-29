@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@100&family=Hind+Siliguri:wght@600&family=Roboto+Condensed:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+    position: absolute;
+    background-color: blanchedalmond;
+    font-family: 'Roboto Condensed', sans-serif;
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+}
+
+.sidebar nav {
+    padding: 45px;
+
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+.main {
+    /*background-color: pink;*/
+    width: 90vw;
+}
+
+.container {
+    display: flex;
+}
+
+.infoContainer {
+    /* background-color: aqua;*/
+    height: 58vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devinfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hello {
+    font-size: 65px;
+}
+
+.name {
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.about {
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Moreabout {
+    font-size: 28px;
+    margin-top: 20px.co;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.buttons {
+    margin-top: 34px;
+}
+
+.btn {
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 21px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+.btn-sm {
+    font-size: 14px;
+    padding: 10px 19px;
+    margin: 12px 0;
+}
+
+.btn:hover {
+    color: dodgerblue;
+    background-color: aliceblue;
+}
+
+.devPic img {
+    height: 58vh;
+}
+
+.contactform {
+    padding-top: 144px;
+    padding: 0 34px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 76px 88px;
+}
+
+.contactform h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 12px 0;
+
+}
+
+.contactform form div {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform form div input {
+    width: 16vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+
+#emailHelp {
+    font-size: 11px;
+    color: blue;
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+}
+
+#form-check {
+    flex-direction: row;
+}
+
+#form-check input {
+    width: 24px;
+    margin: 3px 0;
+}
+.intro{
+    margin: 76px 88px;
+}
+
+.intro h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 12px;
+    font-size: 23px;
+}
+
+.intro p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 12px;
+}
+
+.skillcontainer {
+    padding: 12px;
+}
+
+.skillitem {
+    display: flex;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+}
+
+.skill {
+    width: 265px;
+    height: 6px;
+    background-color: red;
+    border: 2px solid black;
+}
+
+.hundred {
+    width: 265px;
+    background-color: black;
+}
+
+.sixtyfive {
+    width: 200px;
+    background-color: blue;
+}
+
+.fifty {
+    width: 160px;
+    background-color: aqua;
+}
+
+.eighty {
+    width: 120px;
+    background-color: brown;
+}
+
+.seventy {
+    width: 100px;
+    background-color: cornflowerblue;
+}
+
+.ninty {
+    width: 70px;
+    background-color: green;
+}
+
+.sidebarGo {
+    transform: translate(-443px, 0px);
+    position: absolute;
+}
+
+.hamburger {
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+
+.ham {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.cross {
+    margin-left: 185px;
+    margin-top: 10px;
+}
+.resumePic{
+    
+    height:0 -30vh;
+
+}
+.Education{
+    
+        font-size: 30px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+@media (max-width: 1250px) {
+    .devPic{
+        display: none;
+    }
+  }
+.embed{
+    left: 250px;
+    position: fixed;
+    top: 3px;
+
+}
